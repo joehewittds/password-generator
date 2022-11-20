@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+    <div class="head">
+        <div class="container">
+            <h1>Generate a <br><span>random password</span> </h1>
+            <p>Never use an insecure password again.</p>
+            <button id="Generate" onclick="generate()"><img src="images/icon.png" alt="lightning bolt">Generate passwords</button>
+            <div class="userInput">
+                <label for="passwordLength">Password Length: </label>
+                <input type="text" id="passLength" name="passwordLength">
+            </div>
+        </div>
+    </div>
+    
+    
+    <section class="text-centre">
+        <div class="container">
+            <p class="line"></p>
+            <div class="col">
+                <div class="wrapper">
+                    <div id="pass1">
+                        <p class="option1-el">Option 1</p>
+                    </div>
+                    <div id="pass2">
+                        <p class="option1-el">Option 2</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
